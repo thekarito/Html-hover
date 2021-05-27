@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mini tienda</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="Mini tienda de ropa">
+	<meta name="keywords" content="vestido, ropa">
+	<meta name="author" content="Karina Torres">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		body {
+			font-family: Calibri, Arial;
+			font-size: 16px;
+			color: #333333;
+		}
+		
+		#menu {
+			text-align: center;
+		}
+		
+		.btn {
+			font-size: 20px !important;
+			padding: 5px 15px;
+			background: #ffffff;
+			border: none;
+		}
+		
+		#btn_mujer {
+			border-bottom: 4px solid #a569bd;
+		}
+		
+		#btn_hombre {
+			border-bottom: 4px solid #2e86c1;
+		}
+		
+		#btn_ninios {
+			border-bottom: 4px solid #17a589;
+		}
+		
+		#botones_menu {
+			margin: auto;
+		}
+		
+		.btn:hover {
+			border-bottom: 4px solid #333333 !important;
+			background: #f2f2f2;
+		}
+		
+		#table_contenido {
+			padding: 50px;
+			margin: auto;
+			border-bottom: 4px dotted #a569bd;
+		}
+		
+		h3 {
+			font-size: 28px;
+			color: #a569bd;
+		}
+		
+		#table_contenido:hover {
+			background: url(imagenes_clase_9/fondo.jpg);
+			transition: all 3s linear;
+		}
+	</style>
+</head>
+<body>
+	<div id="menu">
+		<table id="botones_menu">
+			<tr>
+				<td>
+					<button class="btn" id="btn_mujer">
+					<span>Mujeres</span>
+					<img src="imagenes_clase_9/1.png" width="40">
+					</button>
+				</td>
+				<td>
+					<button class="btn" id="btn_hombre">
+					<span>Hombres</span>
+					<img src="imagenes_clase_9/2.png" width="40">
+					</button>
+				</td>
+				<td>
+					<button class="btn" id="btn_ninios">
+					<span>Niños</span>
+					<img src="imagenes_clase_9/3.png" width="40">
+					</button>
+				</td>
+			</tr>
+		</table>
+	</div>
+	<div id="contenido">
+		<table id="table_contenido" width="800" cellpadding="10">
+			<tr>
+				<td rowspan="2">
+					<img src="imagenes_clase_9/vestido_blanco.jpg" title="falda tul negro" alt="falda" width="300">
+				</td>
+				<td>
+					<h3>Vestido blanco</h3>
+					<p>
+					Lorem ipsum dolor sit amet,consectetur adipiscing elit, sed
+					do eiusmod tempor incididunt
+					ut labore et dolore magna
+					aliqua.Ut enim ad minim 
+					veniam, quis nostrud 
+					exercitation ullamco laboris
+					nisi ut aliquip ex ea commodo
+					consequat.Lorem ipsum dolor sit amet,consectetur adipiscing elit, sed
+					do eiusmod tempor incididunt
+					ut labore et dolore magna
+					aliqua.Ut enim ad minim 
+					veniam, quis nostrud 
+					exercitation ullamco laboris
+					nisi ut aliquip ex ea commodo
+					consequat.
+					</p>
+				</td>
+			</tr>
+			<tr><td><b>Precio oferta:</b> <span>$3500</span></td></tr>
+		</table>
+	</div>
+</body>
+</html>
